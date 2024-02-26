@@ -1102,7 +1102,7 @@ ol {
 }
 
 .credential-area .skills-wrap .skill-items {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto auto;
 }
 
 .credential-area .skills-wrap .skill-item {
@@ -1122,6 +1122,7 @@ ol {
     opacity: 0.9;
     font-size: 18px;
     margin-bottom: 4px;
+    text-wrap: nowrap;
 }
 
 .credential-area .skills-wrap .skill-item p {
@@ -1129,6 +1130,7 @@ ol {
     opacity: 0.6;
     font-size: 14px;
     margin: 0;
+    text-wrap: nowrap;
 }
 
 .credential-area .awards-wrap {
@@ -1136,7 +1138,7 @@ ol {
 }
 
 .credential-area .awards-wrap.skills-wrap .skill-items {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto auto auto;
 }
 
 .credential-area .awards-wrap.skills-wrap .skill-item {
