@@ -975,7 +975,8 @@ ol {
 }
 
 .credential-area .credential-sidebar .img-box {
-    background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%);
+    /* background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%); */
+    /* background: linear-gradient(90deg, #BF953F -15%, #FCF6BA 58%, #AA771C 97%); */
     border-radius: 30px;
     margin-bottom: 40px;
 }
@@ -984,6 +985,7 @@ ol {
     display: block;
     margin: auto;
     border-radius: 30px;
+    /* filter: grayscale(100%); */
 }
 
 .credential-area .credential-sidebar p {
@@ -1098,11 +1100,12 @@ ol {
     font-size: 18px;
     color: #fff;
     text-transform: uppercase;
-    margin-bottom: 19px;
+    margin-bottom: 25px;
 }
 
 .credential-area .skills-wrap .skill-items {
     grid-template-columns: auto auto auto;
+
 }
 
 .credential-area .skills-wrap .skill-item {
@@ -1110,8 +1113,8 @@ ol {
 }
 
 .credential-area .skills-wrap .skill-item .percent {
-    color: #BCBCBC;
-    opacity: 0.6;
+    /* color: #BCBCBC;
+    opacity: 0.6; */
     display: block;
     font-weight: 500;
     margin-bottom: 9px;
