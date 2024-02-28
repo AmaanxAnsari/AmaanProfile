@@ -978,7 +978,7 @@ ol {
     /* background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%); */
     /* background: linear-gradient(90deg, #BF953F -15%, #FCF6BA 58%, #AA771C 97%); */
     border-radius: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .credential-area .credential-sidebar .img-box img {
@@ -991,19 +991,19 @@ ol {
 .credential-area .credential-sidebar p {
     color: #BCBCBC;
     opacity: 0.5;
-    font-size: 16px;
-    margin-bottom: 34px;
+    font-size: 20px;
+    margin-bottom: 25px;
 }
 
 .credential-area .credential-sidebar h2 {
     color: #ffffff;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 30px;
 }
 
 .credential-area .credential-sidebar .social-links {
     gap: 10px;
-    margin-bottom: 36px;
+    margin-bottom: 25px;
 }
 
 .credential-area .credential-sidebar .social-links li a {
